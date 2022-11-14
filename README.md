@@ -62,6 +62,6 @@ Ao deletar o post, o mesmo será apagado do banco de dados, bem como sua imagem 
 
 ## Autores
 Este projeto foi feito pelos alunos:
-- Guilherme Franco Batista GRR20211603
-- Leonardo Vzorek GRR20211641
-- Vinicius Ratzke GRR20211627
+- Guilherme Franco Batista 
+- Leonardo Vzorek 
+- Vinicius Ratzke Servelo
