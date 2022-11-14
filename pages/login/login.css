@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: #25004f;
+}
+
+#login-form {
+  margin-top: -20px;
+  height: 100%;
+  width: 100%;
+  background-color: #25004f;
+}
+.aviso-login{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: #25004f;
+}
+
+.imgcontainer {
+  background-color: white;
+  width: 10%;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  border: 2px solid black;
+  padding-top: 10px;
+}
+
+img.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  background-color: #f1f1f1;
+  justify-content: space-between;
+  border: 2px solid #000000;
+}
+
+span.register {
+  display: flex;
+  align-items: center;
+}
+
+.submit-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.has-error {
+  border: 1px solid red !important;
+}
+
+.help-block,
+#js-errors {
+  color: red;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 400px) {
+  span.register {
+    margin-left: 20px;
+  }
+}
